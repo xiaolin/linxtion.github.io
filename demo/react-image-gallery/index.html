@@ -1,37 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>React Image Gallery</title>
-    <meta name="description" content="Responsive and flexible carousel component with thumbnail support">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-    <link href="//fonts.googleapis.com/css?family=Raleway:300,600" rel="stylesheet">
-    <link rel="stylesheet" href="../../static/css/ionicons.min.css"/>
-    <link rel="stylesheet" href="./app.min.css"/>
-    <link rel="stylesheet" href="./index.css"/>
-    <link rel="shortcut icon" type="image/png" href="../../static/img/favicon.png"/>
-    <script src="../../static/js/ga.js"></script>
-    <script async defer src="//buttons.github.io/buttons.js"></script>
-  </head>
-  <body>
-    <section class="gallery-demo">
-      <h1 class="gallery-demo-header">React Image Gallery</h1>
-      <h3 class="gallery-demo-header-3">
-        Responsive and flexible carousel component with thumbnail support for ReactJS
-      </h3>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Image Gallery - Responsive Carousel Component with Thumbnails</title>
+  <meta name="description"
+    content="A responsive, customizable image gallery component for React with thumbnail navigation, fullscreen mode, touch gestures, and autoplay. Easy to integrate and lightweight.">
 
-      <div class="gallery-demo-subheader">
-        <a class="github-button"
-           href="https://github.com/xiaolin/react-image-gallery"
-           data-icon="octicon-star"
-           data-size="large"
-           data-show-count="true"
-           aria-label="Star xiaolin/react-image-gallery on GitHub">Star</a>
-      </div>
-    </section>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://linxtion.github.io/react-image-gallery/">
+  <meta property="og:title" content="React Image Gallery - Responsive Carousel Component">
+  <meta property="og:description"
+    content="A responsive, customizable image gallery component for React with thumbnail navigation, fullscreen mode, and touch gestures.">
+  <meta property="og:image" content="https://linxtion.github.io/static/img/react-image-gallery-og.png">
 
-    <div id="root" class="gallery-container"></div>
-    <script src="./app.min.js"></script>
-  </body>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://linxtion.github.io/react-image-gallery/">
+  <meta name="twitter:title" content="React Image Gallery - Responsive Carousel Component">
+  <meta name="twitter:description"
+    content="A responsive, customizable image gallery component for React with thumbnail navigation, fullscreen mode, and touch gestures.">
+  <meta name="twitter:image" content="https://linxtion.github.io/static/img/react-image-gallery-og.png">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://linxtion.github.io/react-image-gallery/">
+
+  <!-- Theme color for mobile browsers -->
+  <meta name="theme-color" content="#0d9488">
+
+  <!-- Structured Data for Software -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "React Image Gallery",
+    "description": "A responsive and customizable image gallery component for React with thumbnail support, fullscreen mode, and touch gestures.",
+    "codeRepository": "https://github.com/xiaolin/react-image-gallery",
+    "programmingLanguage": ["JavaScript", "TypeScript", "React"],
+    "runtimePlatform": "Node.js",
+    "license": "https://opensource.org/licenses/MIT",
+    "author": {
+      "@type": "Person",
+      "name": "Xiao Lin",
+      "url": "https://github.com/xiaolin"
+    },
+    "keywords": ["react", "image gallery", "carousel", "slider", "thumbnails", "fullscreen", "responsive"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./app.min.css">
+  <link rel="shortcut icon" type="image/png" href="../../static/img/favicon.png">
+  <script src="../../static/js/ga.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div id="root" class="gallery-container"></div>
+  <script src="./app.min.js"></script>
+</body>
+
 </html>
