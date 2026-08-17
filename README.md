@@ -1,3 +1,3 @@
-linxtion.github.io
+linxtion.com
 ==================
 Website
